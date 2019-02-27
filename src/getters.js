@@ -1,0 +1,1 @@
+export const htmlHeader = (state) => state.htmlHeader
