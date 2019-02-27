@@ -22,6 +22,6 @@ Vue CLI requires Node.js version 8.9 or above (8.11.0+ recommended). You can man
 ## Make a file
 ```
 $ cd src
-$ cat config.js
+$ cat >> config.js
 module.exports = { getHeaderUrl: '' };
 ```
