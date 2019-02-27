@@ -2,25 +2,26 @@
 
 ## Project setup
 ```
+npm install -g @vue/cli
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## Project Usage ( Vue CLI 3.x )
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+vue --version
+vue ui
 ```
 
-### Run your tests
+## Require 
 ```
-npm run test
+Node Version Requirement
+
+Vue CLI requires Node.js version 8.9 or above (8.11.0+ recommended). You can manage multiple versions of Node on the same machine with nvm or nvm-windows.
 ```
 
-### Lints and fixes files
+## Make a file
 ```
-npm run lint
+$ cd src
+$ cat config.js
+module.exports = { getHeaderUrl: '' };
 ```
