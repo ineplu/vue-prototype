@@ -4,8 +4,8 @@
       <div class="headerGalleryWrap" id="disp_top" v-html="htmlHeader">
       </div>
     </div>
-    <div>{{ $myMethod.getTxt('Put disp_no in url') }}</div>
-    <h1>{{ msg }}</h1>
+    <!-- <div>{{ $myMethod.getTxt('Put disp_no in url') }}</div>
+    <h1>{{ msg }}</h1> -->
   </section>
 </template>
 
